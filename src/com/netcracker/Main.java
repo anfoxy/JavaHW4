@@ -18,6 +18,7 @@ import java.util.LinkedList;
 public class Main {
 
     public static void main(String[] args) {
+
         testMyLinkedList();
         TestLinkedList testLinkedList = new TestLinkedList();
         TestMyLinkedList testMyLinkedList = new TestMyLinkedList();
