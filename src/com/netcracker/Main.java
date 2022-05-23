@@ -18,7 +18,12 @@ import java.util.LinkedList;
 public class Main {
 
     public static void main(String[] args) {
+        TestTreeSet testTreeSet = new TestTreeSet();
 
+        System.out.println(testTreeSet.test());
+        System.out.println(testTreeSet.testRemoveLast());
+
+        /*
         testMyLinkedList();
         TestLinkedList testLinkedList = new TestLinkedList();
         TestMyLinkedList testMyLinkedList = new TestMyLinkedList();
@@ -66,7 +71,7 @@ public class Main {
 
         System.out.println("testTreeMap run=========");
         testTreeMap.mainTestPrint(20);
-        System.out.println("testTreeMap end=========");
+        System.out.println("testTreeMap end=========");*/
     }
 
     public static void testMyLinkedList(){
